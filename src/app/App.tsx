@@ -3,7 +3,7 @@ import { RouterProvider } from 'react-router';
 import { Toaster } from './components/ui/sonner';
 import { AuthProvider } from './lib/auth-context';
 import { router } from './routes';
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 
 
 export default function App() {
